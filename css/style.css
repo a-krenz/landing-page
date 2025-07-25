@@ -128,3 +128,23 @@ h2 {
     font-size: large;
     font-weight: normal;
 }
+
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    margin: 36px 10% 36px 10%;
+    padding: 36px 56px;
+    background-color: #5E936C;
+    border-radius: 8px;
+    color: white;
+}
+
+.newsletter button {
+    border: 2px solid white;
+    align-self: center;
+}
+
+.newsletter h3,
+.newsletter p {
+    margin: 0px;
+}
