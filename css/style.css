@@ -115,9 +115,18 @@ h2 {
 .quote {
     display: flex;
     flex-direction: column;
-    padding: 48px 10% 36px 10%;
+    padding: 48px 20% 36px 20%;
 }
 
 .quote em {
     font-size: 36px;
+    font-weight: lighter;
+}
+
+.quote {}
+
+.author {
+    align-self: flex-end;
+    font-size: large;
+    font-weight: normal;
 }
